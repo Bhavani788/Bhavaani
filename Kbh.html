@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #ddd 1px solid;
+        }
+        header h1 {
+            text-align: center;
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav ul {
+            padding: 0;
+            list-style: none;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .main {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 20px 0;
+        }
+        .main > div {
+            flex: 1;
+            margin: 10px;
+            padding: 20px;
+            background: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #333;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Student Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <div class="container">
+        <section id="about" class="main">
+            <div>
+                <h2>About Me</h2>
+                <p>Hello! I am Bhavani a student passionate about web development. I am currently pursuing my studies in Computer Science and looking to apply my skills in real-world projects.</p>
+            </div>
+        </section>
+
+        <section id="skills" class="main">
+            <div>
+                <h2>Skills</h2>
+                <ul>
+                    <li>HTML & CSS</li>
+                  
+                    <li>Python</li>
+                    <li>Data Analysis</li>
+                    <li>Git & GitHub</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="projects" class="main">
+            <div>
+                <h2>Projects</h2>
+                <ul>
+                    <li><strong>Portfolio Website</strong>: A personal website showcasing my work and skills.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="contact" class="main">
+            <div>
+                <h2>Contact</h2>
+                <p>If you would like to get in touch, please email me at <a href="mailto: pandibhavani2005@gmail.com">pandibhavani2005@gmail.com</a>.</p>
+            </div>
+        </section>
+    </div>
+    
+    <footer>
+        <p>&copy; 2024 Bhavani Portfolio</p>
+    </footer>
+</body>
+</html>
